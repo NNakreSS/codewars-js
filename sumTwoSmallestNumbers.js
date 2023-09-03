@@ -13,7 +13,4 @@ function sumTwoSmallestNumbers2(numbers) {
     return (numbers.sort((a, b) => a - b)).slice(0, 2).reduce((a, b) => a + b);
 }
 
-const array = [5, 8, 12, 19, 22]
-console.log(array)
-
-console.log(sumTwoSmallestNumbers2(array))
+console.log(sumTwoSmallestNumbers2([5, 8, 12, 19, 22]))
