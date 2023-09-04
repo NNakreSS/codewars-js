@@ -18,12 +18,8 @@ function getNumbersToString(stringNumbers) {
     return numbers
 }
 
-function start() {
     console.log(highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
     console.log(highAndLow("1 2 3"))
-}
-
-start();
 
 // solution 2 
 
@@ -32,9 +28,6 @@ function highAndLow2(numbers) {
     return (`${Math.max(...numbersArray)} ${Math.min(...numbersArray)}`)
 }
 
-function start2() {
     console.log(highAndLow2("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
     console.log(highAndLow2("1 2 3"))
-}
 
-start2();
